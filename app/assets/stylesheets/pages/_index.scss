@@ -1,2 +1,7 @@
 // Import page-specific CSS files here.
+$gray: #F4F4F4; // Defining a variable
+$spacer: 8px;
 @import "home";
+body {
+  background: $gray; // Using this variable
+}
